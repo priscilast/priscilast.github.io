@@ -37,14 +37,6 @@ span.benefit{
         width: 430px;
     }
 }
-@media screen and (min-width:414px) and (max-width: 999px)
-{
-    .caixabranca
-    {
-        margin: 0 0 0 -225px;
-        width: 430px;
-    }
-}
 
 
 .rodape{
