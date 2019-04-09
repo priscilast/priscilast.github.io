@@ -42,7 +42,9 @@
         width: 430px;
     }
 }
-
+span.benefit{
+	font-weight:bold;
+}
 
 .rodape{
 	position: relative;
