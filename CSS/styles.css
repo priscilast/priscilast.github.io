@@ -24,6 +24,50 @@
 	left: 472px;
 	border-radius: 10px;
 }
+
+@media screen and (max-width:1000px)
+{
+
+    .caixabranca
+    {
+        margin: 0 0 0 -225px;
+        width: 430px;
+    }
+}
+@media screen and (min-width:414px) and (max-width: 999px)
+{
+    .caixabranca
+    {
+        margin: 0 0 0 -225px;
+        width: 430px;
+    }
+}
+
+
+.rodape{
+	position: relative;
+	width: 100%;
+	height: 12px;
+	/*margin: 0px 0px 16px;*/
+	text-align: center;
+	font-color: white;
+	font-size: 11px;
+	font-weight: normal;
+	max-width: 135px;
+	padding: 4px 7px;
+	z-index: 2;
+	display: inline;
+	left: 350px;
+}
+
+a:link{
+	color: white;
+	text-decoration: none;
+}
+a:visited{
+	color:white;
+	text-decoration: none;
+}
 .logo {
 	top: 5%;
 	left: 190px;
@@ -37,6 +81,31 @@
 	top: -20px;
 	text-align: center;
 }
+h1{ 
+	text-align: center;
+	font-size: 35px ;
+ }
+
+ @font-face{
+ 	font-family: Bastardus;
+ 	src: url('https://github.com/priscilast/projeto1/blob/master/BastardusSans.ttf');
+
+ }
+p{ 
+	font-family: Bastardus ;
+	text-align: center;
+}
+
+/*h2{ 
+	font-color: gray
+	text-align: center;
+	font-size: 10px ;
+ }*/
+
+ h3{ 
+	text-align: center;
+	font-size: 10px ;
+ }
 input.email{
 	position: relative;
 	border-radius: 5px;
@@ -54,10 +123,22 @@ input.senha{
 	top: 15px;
 	font-size: 14px;
 }
-
+.entrar{
+	position: relative;
+	border-radius: 3px;
+	height: 31px;
+	width: 294px;
+	border: 0.8px;
+	left: 66px;
+	top: 32px;
+	background-color: rgb(203, 32, 39);
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}
 .esqueceu{
 	position: relative;
-	left: 95px;
+	left: -95px;
 	top: -42px;
 	font-size: 13px;
 	color: rgba(0, 0, 0, 0,5);
@@ -121,7 +202,6 @@ input.senha{
     top: -31px;
    	left: -130px;
 }
-
 .termos{
 	position: relative;
 	height: 31px;
@@ -133,7 +213,6 @@ input.senha{
 	color: rgb(149, 149, 149);
 
 }
-
 .linha{
 	border-width: 0 0 1px 0;
 	position: relative;
@@ -158,121 +237,6 @@ input.senha{
 	color: rgb(149, 149, 149);
 
 }
-
-.configrodape{
-	height: 90%;
-	width: 100%;
-	top: 700px;
-	position: relative;
-	
-}
-
-@media screen and (max-width:1000px)
-{
-
-    .caixabranca
-    {
-        margin: 0 0 0 -225px;
-        width: 430px;
-    }
-}
-@media screen and (min-width:414px) and (max-width: 999px)
-{
-    .caixabranca
-    {
-        margin: 0 0 0 -225px;
-        width: 430px;
-    }
-}
-
-
-.rodape{
-	position: relative;
-	width: 100%;
-	height: 12px;
-	/*margin: 0px 0px 16px;*/
-	text-align: center;
-	font-color: white;
-	font-size: 11px;
-	font-weight: normal;
-	max-width: 135px;
-	padding: 4px 7px;
-	z-index: 2;
-	display: inline;
-	left: 350px;
-}
-
-a:link{
-	color: white;
-	text-decoration: none;
-}
-a:visited{
-	color:white;
-	text-decoration: none;
-}
-
-h1{ 
-	text-align: center;
-	font-size: 35px ;
- }
-
-@font-face{
- 	font-family: Segoe;
- 	font-style: normal;
- 	font-weight: normal;
- 	src: url('segoe-mt-bold-webfont.eot');  /*IE 9*/
- 	src: url('segoe-mt-bold-webfont.eot?#iefix') format('embedded-opentype') /*IE 8 ou inferior*/, 
- 	url('segoe-mt-bold-webfont.ttf') format('truetype') /*Safari e Android*/, 
- 	url('segoe-mt-bold-webfont.woff') format('woff'),
- 	url('segoe-mt-bold-webfont.svg#Arabia') format('svg') /*dispositivos móveis*/;
-}
-h1{ 
-	font-family: Segoe;
-	text-align: center;
-	font-size: 35px ;
- }
-
- @font-face{
- 	font-family: Bastardus;
- 	font-style: normal;
- 	font-weight: normal;
- 	src: url('BastardusSans-webfont.eot');  /*IE 9*/
- 	src: url('BastardusSans-webfont.eot?#iefix') format('embedded-opentype') /*IE 8 ou inferior*/, 
- 	url('BastardusSans-webfont.ttf') format('truetype') /*Safari e Android*/, 
- 	url('BastardusSans-webfont.woff') format('woff'),
- 	url('BastardusSans-webfont.svg#Arabia') format('svg') /*dispositivos móveis*/;
-}
-h5{ 
-	font-family: Bastardus ;
-	text-align: center;
-}
-/*h2{ 
-	font-color: gray
-	text-align: center;
-	font-size: 10px ;
- }*/
-
- h3{ 
-	text-align: center;
-	font-size: 10px ;
- }
-
-.entrar{
-	position: relative;
-	border-radius: 3px;
-	height: 31px;
-	width: 294px;
-	border: 0.8px;
-	left: 66px;
-	top: 32px;
-	background-color: rgb(203, 32, 39);
-	text-align: center;
-	font-weight: bold;
-	color: white;
-}
-
-
-
 
 .coluna1{
 	height: 600px;
@@ -340,4 +304,10 @@ h5{
 
 	/* usar posição absoluta, ou colocar as colunas dentro de um só div*/
 }
-
+.configrodape{
+	height: 90%;
+	width: 100%;
+	top: 700px;
+	position: relative;
+	
+}
