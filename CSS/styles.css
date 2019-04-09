@@ -1,8 +1,4 @@
-.colunas{ 
-	/*position: absolute*/
-	height: 100%;
-	width: 100%;
-}
+
 .criarconta{
 	height: 45px;
 	width: 130px;
@@ -29,27 +25,21 @@
 	border-radius: 10px;
 }
 
-@media screen and (max-width:999px)
+@media screen and (max-width:1000px)
 {
-    .colunas { width: 800px; }
 
     .caixabranca
     {
-        clear: left;
-        float: none;
         margin: 0 0 0 -225px;
-        width: 550px;
+        width: 430px;
     }
 }
-
-@media screen and (max-width:480px)
+@media screen and (min-width:414px) and (max-width: 999px)
 {
-    .colunas { width: 400px; }
-
     .caixabranca
     {
-        float: none;
-        width: auto;
+        margin: 0 0 0 -225px;
+        width: 430px;
     }
 }
 
@@ -91,34 +81,17 @@ a:visited{
 	top: -20px;
 	text-align: center;
 }
-
-@font-face{
- 	font-family: Segoe;
- 	font-style: normal;
- 	font-weight: normal;
- 	src: url('segoe-mt-bold-webfont.eot');  /*IE 9*/
- 	src: url('segoe-mt-bold-webfont.eot?#iefix') format('embedded-opentype') /*IE 8 ou inferior*/, 
- 	url('segoe-mt-bold-webfont.ttf') format('truetype') /*Safari e Android*/, 
- 	url('segoe-mt-bold-webfont.woff') format('woff'),
- 	url('segoe-mt-bold-webfont.svg#Arabia') format('svg') /*dispositivos móveis*/;
-}
 h1{ 
-	font-family: Segoe;
 	text-align: center;
 	font-size: 35px ;
  }
 
  @font-face{
  	font-family: Bastardus;
- 	font-style: normal;
- 	font-weight: normal;
- 	src: url('BastardusSans-webfont.eot');  /*IE 9*/
- 	src: url('BastardusSans-webfont.eot?#iefix') format('embedded-opentype') /*IE 8 ou inferior*/, 
- 	url('BastardusSans-webfont.ttf') format('truetype') /*Safari e Android*/, 
- 	url('BastardusSans-webfont.woff') format('woff'),
- 	url('BastardusSans-webfont.svg#Arabia') format('svg') /*dispositivos móveis*/;
-}
-h5{ 
+ 	src: url('https://github.com/priscilast/projeto1/blob/master/BastardusSans.ttf');
+
+ }
+p{ 
 	font-family: Bastardus ;
 	text-align: center;
 }
@@ -165,7 +138,7 @@ input.senha{
 }
 .esqueceu{
 	position: relative;
-	left: 65px;
+	left: -95px;
 	top: -42px;
 	font-size: 13px;
 	color: rgba(0, 0, 0, 0,5);
@@ -251,9 +224,6 @@ input.senha{
 	background-color: lightgrey;
 	text-align: center;
 	color: blue;
-}
-span.benefit{
-	font-weight: bold;
 }
 .naoesta{
 	position: relative;
