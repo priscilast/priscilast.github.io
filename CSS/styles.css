@@ -1,4 +1,5 @@
 
+
 .criarconta{
 	height: 45px;
 	width: 130px;
@@ -24,7 +25,9 @@
 	left: 472px;
 	border-radius: 10px;
 }
-
+span.benefit{
+	font-weight: bold;
+}
 @media screen and (max-width:1000px)
 {
 
@@ -42,9 +45,7 @@
         width: 430px;
     }
 }
-span.benefit{
-	font-weight:bold;
-}
+
 
 .rodape{
 	position: relative;
